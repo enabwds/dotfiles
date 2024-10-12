@@ -73,8 +73,19 @@
                             (quote eval-print-last-sexp))))
 (add-to-list 'auto-mode-alist '("Cask" . emacs-lisp-mode))
 
-;;; uxntal-mode
+;;; EAF
+(add-to-list 'load-path "~/.emacs.d/site-lisp/emacs-application-framework/")
+(require 'eaf)
+(require 'eaf-git)
+(require 'eaf-pdf-viewer)
+(require 'eaf-markdown-previewer)
+(require 'eaf-org-previewer)
+(require 'eaf-video-player)
+(require 'eaf-rss-reader)
+(require 'eaf-browser)
+(require 'eaf-image-viewer)
 
+;;; uxntal-mode
 (rc/require 'uxntal-mode)
 
 ;;; Haskell mode
