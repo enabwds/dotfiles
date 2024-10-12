@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ edit-tab-stops
+ customize-option
+ package-install
+ goto-line
+ ag
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (goto-line . 1)
+ (package-install . 1)
+ (customize-option . 1)
+ (edit-tab-stops . 1)
+)
