@@ -1,22 +1,24 @@
 
 ;; ----- smex-history -----
 (
- eaf-open-browser
- eaf-install
  package-install
- describe-variable
- edit-tab-stops
- customize-option
+ package-refresh-contents
+ eaf-open-browser
  goto-line
+ recover-this-file
+ eaf-install
+ describe-variable
 )
 
 ;; ----- smex-data -----
 (
- (goto-line . 1)
- (package-install . 4)
+ (goto-line . 4)
+ (package-install . 8)
  (customize-option . 1)
  (edit-tab-stops . 1)
  (describe-variable . 1)
  (eaf-install . 2)
- (eaf-open-browser . 1)
+ (eaf-open-browser . 4)
+ (recover-this-file . 1)
+ (package-refresh-contents . 1)
 )

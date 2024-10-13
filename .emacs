@@ -42,8 +42,22 @@
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
+;;; MELPA
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+;;; LSP-mode
+(require 'lsp-mode)
+;; Start lsp when you open a file for each langauge
+(add-hook 'python-mode-hook #'lsp)
+(add-hook 'go-mode-hook     #'lsp)
+(add-hook 'c-mode-hook      #'lsp)
+(add-hook 'haskell-mode-hook      #'lsp)
+;; Add more languages as needed
+
 ;;; c-mode
-(setq-default c-basic-offset 4
+(setq-default c-basic-offset 2
               c-default-style '((java-mode . "java")
                                 (awk-mode . "awk")
                                 (other . "bsd")))
