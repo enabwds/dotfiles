@@ -15,7 +15,7 @@ set $wm_setting_key_up               Up
 set $wm_setting_key_right            Right
 
 set $wm_setting_app_terminal         kitty
-set $wm_setting_app_browser          zen-browser
+set $wm_setting_app_browser          firefox
 set $wm_setting_app_launcher         dmenu_run
 set $wm_setting_app_compositor       picom
 
@@ -197,10 +197,10 @@ font $wm_setting_font
 floating_modifier $mod
 
 # Enter fullscreen mode for the focused window
-bindsym $mod+mod1+space fullscreen toggle
+bindsym $mod+$smod+f fullscreen toggle
 
 # Toggle between tiling and floating
-bindsym $mod+$smod+f floating toggle
+bindsym $mod+mod1+space floating toggle
 
 # Kill the focused window
 bindsym $mod+q kill
