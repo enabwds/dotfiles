@@ -1,4 +1,4 @@
-# Dotfiles 
+# Dotfiles
 Config files for some of the programs I use
 
 ## Programs

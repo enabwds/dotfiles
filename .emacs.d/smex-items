@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ lsp
  package-install
+ lsp-mode
+ lsp-install-server
  package-refresh-contents
  eaf-open-browser
  goto-line
- recover-this-file
- eaf-install
- describe-variable
 )
 
 ;; ----- smex-data -----
 (
  (goto-line . 4)
- (package-install . 8)
+ (package-install . 10)
  (customize-option . 1)
  (edit-tab-stops . 1)
  (describe-variable . 1)
@@ -21,4 +21,8 @@
  (eaf-open-browser . 4)
  (recover-this-file . 1)
  (package-refresh-contents . 1)
+ (lsp . 3)
+ (lsp-install-server . 1)
+ (lsp-clangd-find-other-file . 1)
+ (lsp-mode . 1)
 )
