@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- lsp
+ org-mode
+ eaf-open
  package-install
+ lsp
  lsp-mode
  lsp-install-server
  package-refresh-contents
- eaf-open-browser
- goto-line
 )
 
 ;; ----- smex-data -----
 (
  (goto-line . 4)
- (package-install . 10)
+ (package-install . 11)
  (customize-option . 1)
  (edit-tab-stops . 1)
  (describe-variable . 1)
@@ -25,4 +25,6 @@
  (lsp-install-server . 1)
  (lsp-clangd-find-other-file . 1)
  (lsp-mode . 1)
+ (eaf-open . 1)
+ (org-mode . 1)
 )
