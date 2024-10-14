@@ -5,7 +5,7 @@ Config files for some of the programs I use
 * Vim
 * Neovim
 * Emacs
-* GHC
+* GHCI
 * tmux
 * bash
 * zsh
