@@ -2,20 +2,20 @@
 Config files for some of the programs I use
 
 ## Programs
-* Vim
-* Neovim
-* Emacs
-* GHCI
-* tmux
-* bash
-* zsh
-* fish
 * ags
-* fastfetch
+* bash
 * cava
+* emacs
+* fastfetch
+* fish
+* GHCI
 * htop
 * hyprland
-* waybar
 * i3
-* polybar
+* Neovim
 * picom
+* polybar
+* tmux
+* vim
+* waybar
+* zsh
