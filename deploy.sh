@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo pacman -Syu stow
+
 rm -rf ~/.emacs*
 rm ~/.vimrc
 rm ~/.zshrc
@@ -18,7 +20,5 @@ rm -rf ~/.config/nvim
 rm -rf ~/.config/picom
 rm -rf ~/.config/polybar
 rm -rf ~/.config/waybar
-
-sudo pacman -Syu stow
 
 stow .
