@@ -26,6 +26,8 @@ alias update='yay -Syu'
 alias install='yay -S'
 alias remove='yay -Rns'
 alias cacheclear='yay -Sc'
+alias pkgfind='yay -Ss'
+
 hyfetch
 pokemon-colorscripts --no-title -s -r
 # function fish_prompt
