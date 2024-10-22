@@ -23,7 +23,10 @@
 (column-number-mode 1)
 (show-paren-mode 1)
 
-(rc/require-theme 'gruber-darker)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/oxocarbon")
+(load-theme 'oxocarbon t)
+
+;; (rc/require-theme 'gruber-darker)
 ;; (rc/require-theme 'zenburn)
 ;; (load-theme 'adwaita t)
 
@@ -45,7 +48,7 @@
 ;;; MELPA
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-(package-initialize)
+;; (package-initialize)
 
 ;;; LSP-mode
 (require 'lsp-mode)

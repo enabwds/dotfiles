@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
+ package-install
+ evil-mode
+ package-delete
  org-mode
  eaf-open
- package-install
  lsp
- lsp-mode
- lsp-install-server
- package-refresh-contents
 )
 
 ;; ----- smex-data -----
 (
  (goto-line . 4)
- (package-install . 11)
+ (package-install . 14)
  (customize-option . 1)
  (edit-tab-stops . 1)
  (describe-variable . 1)
@@ -27,4 +27,7 @@
  (lsp-mode . 1)
  (eaf-open . 1)
  (org-mode . 1)
+ (package-delete . 1)
+ (evil-mode . 2)
+ (eval-buffer . 3)
 )
