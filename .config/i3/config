@@ -209,7 +209,7 @@ bindsym $mod+q kill
 bindsym $mod+$smod+r restart
 
 # Set Wallpaper
-exec feh --bg-scale Pictures/wallpapers/Dreamy-Aesthetic-Home-Under-Moonlight.png
+exec feh --bg-scale Pictures/wallpapers/flag.png
 # Set keyboard repeat rate
 exec_always xset r rate 200 30
 
