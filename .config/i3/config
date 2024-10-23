@@ -214,7 +214,7 @@ exec feh --bg-scale Pictures/wallpapers/flag.png
 exec_always xset r rate 200 30
 
 # Exit i3 (logs you out of your X session)
-bindsym $smod+$mod+p exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $smod+$mod+p exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit' "
 
 # Set the mouse dpi
 exec_always /home/yohann/.config/i3/dpi.sh
