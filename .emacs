@@ -114,7 +114,7 @@
 (add-hook 'haskell-mode-hook 'haskell-indent-mode)
 (add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 (add-hook 'haskell-mode-hook 'haskell-doc-mode)
-(setq-default tab-width 2) ; Replace 4 with your desired tab width
+(setq-default tab-width 3) ; Replace 3 with your desired tab width
 (require 'basm-mode)
 
 (require 'fasm-mode)
