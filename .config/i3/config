@@ -48,6 +48,10 @@ set $bar_color_workspace_urgent_fg   #2E3440
 
 ### Applications ###
 # Start a terminal emulator
+
+# Kill polybar before starting
+bindsym $mod+$smod+e exec pkill polybar
+
 bindsym $mod+X exec $wm_setting_app_terminal
 
 # Start a web browser
@@ -68,8 +72,8 @@ bindsym $mod+z exec kitty -e nvim ~
 # Autostart picom
 exec --no-startup-id picom
 
-# Launch Nautilus
-bindsym $mod+t exec nautilus
+# Launch Yazi
+bindsym $mod+t exec kitty -e yazi
 
 ### Workspaces ###
 # Define names for default workspaces for which we configure key bindings later on.
