@@ -36,6 +36,9 @@
 ;;; ido
 (rc/require 'smex 'ido-completing-read+)
 
+;;; Don't create backup files after quitting
+(setq make-backup-files nil)
+
 (require 'ido-completing-read+)
 
 (ido-mode 1)
