@@ -161,9 +161,8 @@
 (add-hook 'porth-mode-hook 'rc/set-up-whitespace-handling)
 
 ;;; display-line-numbers-mode
-(when (version<= "26.0.50" emacs-version)
-  (global-display-line-numbers-mode))
-
+(setq display-line-numbers-type 'relative)
+(global-display-line-numbers-mode)
 ;;; magit
 ;; magit requres this lib, but it is not installed automatically on
 ;; Windows.
