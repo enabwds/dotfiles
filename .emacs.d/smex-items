@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ recover-this-file
  org-mode
  whitespace-mode
  eval-buffer
  package-install
  evil-mode
  package-delete
- eaf-open
 )
 
 ;; ----- smex-data -----
@@ -19,7 +19,7 @@
  (describe-variable . 1)
  (eaf-install . 2)
  (eaf-open-browser . 4)
- (recover-this-file . 1)
+ (recover-this-file . 2)
  (package-refresh-contents . 1)
  (lsp . 3)
  (lsp-install-server . 1)
