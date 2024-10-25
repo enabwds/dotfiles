@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ org-mode
+ whitespace-mode
  eval-buffer
  package-install
  evil-mode
  package-delete
- org-mode
  eaf-open
- lsp
 )
 
 ;; ----- smex-data -----
@@ -26,8 +26,9 @@
  (lsp-clangd-find-other-file . 1)
  (lsp-mode . 1)
  (eaf-open . 1)
- (org-mode . 1)
+ (org-mode . 3)
  (package-delete . 1)
  (evil-mode . 2)
  (eval-buffer . 3)
+ (whitespace-mode . 4)
 )
