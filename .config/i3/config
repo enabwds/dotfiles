@@ -69,6 +69,8 @@ bindsym $mod+c exec emacs ~
 # Start Neovim in the home directory
 bindsym $mod+z exec kitty -e nvim ~
 
+bindsym $mod+s exec steam
+
 # Autostart picom
 exec --no-startup-id picom
 
