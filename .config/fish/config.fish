@@ -27,6 +27,7 @@ alias install='yay -S'
 alias remove='yay -Rns'
 alias cacheclear='yay -Sc'
 alias pkgfind='yay -Ss'
+alias Sudo='sudo'
 
 hyfetch
 pokemon-colorscripts --no-title -s -r
