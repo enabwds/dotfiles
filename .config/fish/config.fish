@@ -28,8 +28,11 @@ alias remove='yay -Rns'
 alias cacheclear='yay -Sc'
 alias pkgfind='yay -Ss'
 alias Sudo='sudo'
+alias cd='z'
+alias the-book='rustup doc --book'
 
 hyfetch
+kitty +kitten themes --reload-in=all catppuccin-mocha
 pokemon-colorscripts --no-title -s -r
 # function fish_prompt
 #   set_color cyan; echo (pwd)
