@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- query-replace-regexp
- goto-line
- package-refresh-contents
- package-upgrade-all
- recover-this-file
- org-mode
+ lsp
  whitespace-mode
+ lsp-mode
+ package-upgrade-all
+ package-refresh-contents
+ kill-buffer
+ term
 )
 
 ;; ----- smex-data -----
@@ -20,17 +20,19 @@
  (eaf-install . 2)
  (eaf-open-browser . 4)
  (recover-this-file . 2)
- (package-refresh-contents . 3)
- (lsp . 3)
+ (package-refresh-contents . 4)
+ (lsp . 9)
  (lsp-install-server . 1)
  (lsp-clangd-find-other-file . 1)
- (lsp-mode . 1)
+ (lsp-mode . 2)
  (eaf-open . 1)
  (org-mode . 3)
  (package-delete . 1)
  (evil-mode . 2)
  (eval-buffer . 3)
- (whitespace-mode . 4)
- (package-upgrade-all . 1)
+ (whitespace-mode . 9)
+ (package-upgrade-all . 2)
  (query-replace-regexp . 1)
+ (term . 2)
+ (kill-buffer . 1)
 )

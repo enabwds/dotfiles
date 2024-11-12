@@ -18,3 +18,6 @@ vim.cmd("colorscheme oxocarbon")
 require("lazy").setup("plugins")
 require("vim-options")
 
+if vim.g.neovide then
+  vim.o.guifont = "JetBrains Mono:h9"
+end

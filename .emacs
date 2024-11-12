@@ -22,6 +22,7 @@
 (scroll-bar-mode 0)
 (column-number-mode 1)
 (show-paren-mode 1)
+(setq lsp-log-io nil)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/oxocarbon")
 (load-theme 'oxocarbon t)
@@ -137,7 +138,7 @@
 ;;; Whitespace mode
 (defun rc/set-up-whitespace-handling ()
   (interactive)
-  (whitespace-mode 1)
+  (whitespace-mode 0)
   (add-to-list 'write-file-functions 'delete-trailing-whitespace))
 
 (add-hook 'tuareg-mode-hook 'rc/set-up-whitespace-handling)
