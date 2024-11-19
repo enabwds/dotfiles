@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu --needed stow emacs vim zsh bash ghci tmux ags cava fastfetch fish htop hyprland i3 kitty picom polybar waybar nushell
+sudo pacman -Syu --needed stow emacs vim zsh bash ghci tmux ags cava fastfetch fish htop hyprland i3 kitty picom polybar waybar nushell hyprpaper
 
 
 rm -rf ~/.emacs*
