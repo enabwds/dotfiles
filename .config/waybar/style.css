@@ -43,7 +43,8 @@ window#waybar.hidden {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: #5BCEFA;
+    color: #000000;
 }
 
 #battery {
@@ -52,8 +53,8 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-    color: #ffffff;
-    background-color: #26A65B;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 @keyframes blink {
@@ -74,20 +75,23 @@ window#waybar.hidden {
 }
 
 #cpu {
-    background: #2ecc71;
+    background: #ffffff;
     color: #000000;
 }
 
 #memory {
-    background: #9b59b6;
+    background: #F5A9B8;
+    color: #000000
 }
 
 #backlight {
-    background: #90b1b1;
+    background: #F5A9B8;
+    color: #000000
 }
 
 #network {
-    background: #2980b9;
+    background: #F5A9B8;
+    color: #000000;
 }
 
 #network.disconnected {
@@ -95,12 +99,12 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-    background: #f1c40f;
+    background: #5BCEFA;
     color: #000000;
 }
 
 #pulseaudio.muted {
-    background: #90b1b1;
+    background: #5BCEFA;
     color: #2a5c45;
 }
 
@@ -118,13 +122,31 @@ window#waybar.hidden {
 }
 
 #temperature {
-    background: #f0932b;
+    background: #5BCEFA;
+    color: #000000;
 }
 
 #temperature.critical {
     background: #eb4d4b;
 }
 
+@keyframes blink-update {
+	to {
+		background-color: dodgerblue;
+	}
+}
+
+#custom-updates {
+    background: #F5A9B8;
+    color: #000000;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#custom-updates.pending-updates {
+	animation-name: blink-update;
+	animation-duration: 3s;
+}
 #tray {
     background-color: #2980b9;
 }

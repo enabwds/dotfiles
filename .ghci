@@ -1,4 +1,3 @@
 :set prompt "λ> "
 :set -XOverloadedStrings
-:set editor emacs
-
+:set editor vim

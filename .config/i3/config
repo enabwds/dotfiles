@@ -14,7 +14,7 @@ set $wm_setting_key_down             Down
 set $wm_setting_key_up               Up
 set $wm_setting_key_right            Right
 
-set $wm_setting_app_terminal         kitty zellij
+set $wm_setting_app_terminal         kitty 
 set $wm_setting_app_browser          firefox
 set $wm_setting_app_launcher         rofi -show drun
 set $wm_setting_app_compositor       picom
@@ -64,7 +64,7 @@ bindsym $mod+d exec $wm_setting_app_launcher
 exec --no-startup-id $wm_setting_app_compositor
 
 # Start Emacs in the home directory
-bindsym $mod+c exec kitty -e nvim ~
+bindsym $mod+c exec neovide ~
 
 # Start Neovim in the home directory
 bindsym $mod+z exec emacs ~ 
@@ -74,8 +74,8 @@ bindsym $mod+s exec steam
 # Autostart picom
 exec --no-startup-id picom
 
-# Launch Yazi
-bindsym $mod+t exec kitty -e yazi
+# Launch thunarY
+bindsym $mod+t exec thunar
 
 ### Workspaces ###
 # Define names for default workspaces for which we configure key bindings later on.
@@ -215,7 +215,7 @@ bindsym $mod+q kill
 bindsym $mod+$smod+r restart
 
 # Set Wallpaper
-exec feh --bg-scale Pictures/wallpapers/astolfo.png
+exec feh --bg-scale Pictures/wallpapers/arch-rainbow.png
 # Set keyboard repeat rate
 exec_always xset r rate 200 30
 

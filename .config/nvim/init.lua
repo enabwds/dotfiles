@@ -19,5 +19,5 @@ require("lazy").setup("plugins")
 require("vim-options")
 
 if vim.g.neovide then
-  vim.o.guifont = "JetBrains Mono:h9"
+  vim.o.guifont = "JetBrains Mono:h12"
 end

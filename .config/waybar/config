@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray","pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "clock"],
+    "modules-right": ["tray","pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "custom/updates", "clock"],
     // Modules configuration
      "hyprland/workspaces": {
          "disable-scroll": true,
@@ -113,5 +113,15 @@
         },
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-    }
+    },
+  "custom/updates": {
+      "format": "{icon}{}",
+  "return-type": "json",
+  "format-icons": {
+    "pending-updates": " ",
+    "updated": ""
+  },
+  "exec-if": "which waybar-updates",
+  "exec": "waybar-updates"
+  }
 }

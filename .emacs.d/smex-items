@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ evil-mode
  lsp
  whitespace-mode
  lsp-mode
  package-upgrade-all
  package-refresh-contents
  kill-buffer
- term
 )
 
 ;; ----- smex-data -----
@@ -28,7 +28,7 @@
  (eaf-open . 1)
  (org-mode . 3)
  (package-delete . 1)
- (evil-mode . 2)
+ (evil-mode . 5)
  (eval-buffer . 3)
  (whitespace-mode . 9)
  (package-upgrade-all . 2)
