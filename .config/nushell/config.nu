@@ -7,7 +7,6 @@ alias install = yay -S
 alias remove = yay -Rns
 alias cacheclear = yay -Sc
 alias pkgfind = yay -Ss
-alias Sudo = sudo
 alias the-book = rustup doc --book
 
 hyfetch
@@ -16,4 +15,3 @@ $env.config = {
   show_banner: false,
 }
 use ~/.cache/starship/init.nu
-source ~/.zoxide.nu
