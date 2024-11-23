@@ -4,6 +4,8 @@ sudo pacman -Syu --needed stow emacs vim zsh bash ghci tmux ags cava fastfetch f
 
 
 rm -rf ~/.emacs*
+rm -rf ~/.config/rofi
+rm -rf ~/.config/starship.toml
 rm ~/.vimrc
 rm ~/.zshrc
 rm ~/.bashrc
@@ -25,3 +27,4 @@ rm -rf ~/.config/nushell
 rm -rf ~/.config/swaync
 
 stow .
+rm -rf ~/deploy.sh
