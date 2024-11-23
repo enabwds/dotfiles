@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu --needed stow emacs vim zsh bash ghci tmux ags cava fastfetch fish htop hyprland i3 kitty picom polybar waybar nushell hyprpaper
+sudo pacman -Syu --needed stow emacs vim zsh bash ghci tmux ags cava fastfetch fish htop hyprland i3 kitty picom polybar waybar nushell hyprpaper swaync
 
 
 rm -rf ~/.emacs*
@@ -22,5 +22,6 @@ rm -rf ~/.config/picom
 rm -rf ~/.config/polybar
 rm -rf ~/.config/waybar
 rm -rf ~/.config/nushell
+rm -rf ~/.config/swaync
 
 stow .
