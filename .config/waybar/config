@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray","pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "custom/updates", "clock"],
+    "modules-right": ["tray","pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "custom-updates", "clock"],
     // Modules configuration
      "hyprland/workspaces": {
          "disable-scroll": true,
@@ -121,7 +121,6 @@
     "pending-updates": " ",
     "updated": ""
   },
-  "exec-if": "which waybar-updates",
   "exec": "waybar-updates"
   }
 }

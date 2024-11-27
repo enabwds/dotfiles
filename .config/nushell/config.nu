@@ -9,6 +9,7 @@ alias cacheclear = yay -Sc
 alias pkgfind = yay -Ss
 alias the-book = rustup doc --book
 
+c
 hyfetch
 pokemon-colorscripts --no-title -s -r
 $env.config = {
