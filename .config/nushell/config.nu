@@ -1,5 +1,3 @@
-alias fuck = thefuck $"(history | last 1 | get command | get 0)"
-
 alias :q = exit
 alias c = clear
 alias update = yay -Syu

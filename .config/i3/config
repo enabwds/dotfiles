@@ -64,7 +64,7 @@ bindsym $mod+d exec $wm_setting_app_launcher
 exec --no-startup-id $wm_setting_app_compositor
 
 # Start Emacs in the home directory
-bindsym $mod+c exec neovide ~
+bindsym $mod+c exec kitty nvim ~
 
 # Start Neovim in the home directory
 bindsym $mod+z exec emacs ~ 

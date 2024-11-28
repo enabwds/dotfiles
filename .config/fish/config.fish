@@ -16,7 +16,6 @@ starship init fish | source
 if test -f ~/.cache/ags/user/generated/terminal/sequences.txt
     cat ~/.cache/ags/user/generated/terminal/sequences.txt
 end
-alias pamcan=pacman
 thefuck --alias | source
 zoxide init fish | source
 export FZF_PREVIEW_COMMAND="bat --style=numbers,changes --wrap never --color always {}"
@@ -32,7 +31,6 @@ alias cd='z'
 alias the-book='rustup doc --book'
 
 hyfetch
-kitty +kitten themes --reload-in=all catppuccin-mocha
 pokemon-colorscripts --no-title -s -r
 # function fish_prompt
 #   set_color cyan; echo (pwd)
