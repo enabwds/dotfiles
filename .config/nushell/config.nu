@@ -6,6 +6,7 @@ alias remove = yay -Rns
 alias cacheclear = yay -Sc
 alias pkgfind = yay -Ss
 alias the-book = rustup doc --book
+alias msf = msfconsole
 
 c
 hyfetch
