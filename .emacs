@@ -27,6 +27,10 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/oxocarbon")
 (load-theme 'oxocarbon t)
 
+;; Enable Evil
+(require 'evil)
+(evil-mode 1)
+
 ;; (rc/require-theme 'gruber-darker)
 ;; (rc/require-theme 'zenburn)
 ;; (load-theme 'adwaita t)
