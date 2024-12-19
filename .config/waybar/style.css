@@ -37,13 +37,18 @@ window#waybar.hidden {
     border-bottom: 3px solid #ffffff;
 }
 
-#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor, #custom-updates {
+#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor, #bluetooth {
     padding: 0 10px;
     margin: 0 5px;
 }
 
 #clock {
     background-color: #5BCEFA;
+    color: #000000;
+}
+
+#bluetooth {
+    background-color: #F5A9B8;
     color: #000000;
 }
 
@@ -81,12 +86,12 @@ window#waybar.hidden {
 
 #memory {
     background: #F5A9B8;
-    color: #000000
+    color: #000000;
 }
 
 #backlight {
     background: #F5A9B8;
-    color: #000000
+    color: #000000;
 }
 
 #network {

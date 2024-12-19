@@ -158,7 +158,7 @@ input {
 
     follow_mouse = 1
 
-    #sensitivity = -1
+    sensitivity = -1
 
     touchpad {
         natural_scroll = true
@@ -200,7 +200,6 @@ bind = $mainMod, W, exec, firefox
 bind = $mainMod, P, exec, discord
 bind = $mainMod, F, Fullscreen
 bind = Shift+$mainMod, k, exec, hyprctl kill
-bind = $mainMod, L, exec, hyprlock
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, h, movefocus, l
@@ -276,3 +275,4 @@ bindl = , XF86AudioPrev, exec, playerctl previous
 # Ignore maximize requests from apps. You'll probably like this.
 windowrulev2 = suppressevent maximize, class:.*
 # Fix some dragging issues with XWayland
+windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
