@@ -31,6 +31,7 @@ alias cd='z'
 alias the-book='rustup doc --book'
 alias ls='eza -lR --icons'
 alias asmc='gcc -S -O1 -m64 -masm=intel'
+alias ucheck='/home/yohann/.config/polybar/scripts/check-all-updates.sh'
 
 hyfetch
 pokemon-colorscripts --no-title -s -r

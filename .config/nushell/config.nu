@@ -7,7 +7,7 @@ alias cacheclear = yay -Sc
 alias pkgfind = yay -Ss
 alias the-book = rustup doc --book
 alias msf = msfconsole
-
+alias ucheck = /home/yohann/.config/polybar/scripts/check-all-updates.sh
 c
 hyfetch
 pokemon-colorscripts --no-title -s -r
