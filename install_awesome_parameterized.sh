@@ -1,1 +1,0 @@
-.vim_runtime/install_awesome_parameterized.sh

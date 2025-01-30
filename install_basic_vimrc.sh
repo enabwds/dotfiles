@@ -1,1 +1,0 @@
-.vim_runtime/install_basic_vimrc.sh
