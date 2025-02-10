@@ -1,21 +1,12 @@
 # Dotfiles
 Config files for some of the programs I use
 
-## Programs
-* ags
-* bash
-* cava
-* emacs
-* fastfetch
-* fish
-* GHCI
-* htop
-* hyprland
-* i3
-* Neovim
-* picom
-* polybar
-* tmux
-* vim
-* waybar
-* zsh
+## Usage
+```bash
+git clone https://github.com/enabwds/dotfiles.git
+cd dotfiles
+./deploy.sh
+```
+
+## Notes
+- The `deploy.sh` script only works on arch and arch-based distros, as it uses pacman.
