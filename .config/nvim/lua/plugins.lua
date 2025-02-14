@@ -1,1 +1,25 @@
-return {}
+return {
+  "goolord/alpha-nvim",
+  "romgrk/barbar.nvim",
+  "Exafunction/codeium.nvim", 
+  "folke/flash.nvim",
+  "ThePrimeagen/harpoon",
+  "williamboman/mason.nvim",
+  "mfussenegger/nvim-lint",
+  "rshkarin/mason-nvim-lint",
+  "neovim/nvim-lspconfig",
+'hrsh7th/cmp-nvim-lsp',
+'hrsh7th/nvim-cmp',
+"jake-stewart/multicursor.nvim",
+  "folke/noice.nvim",
+  "rcarriga/nvim-notify"
+  "nvim-neo-tree/neo-tree.nvim",
+    "MunifTanjim/nui.nvim",
+    "nvchad/nvim-colorizer.lua",
+    "nyoom-engineering/oxocarbon.nvim",
+    "folke/snacks.nvim",
+  'nvim-telescope/telescope.nvim',
+    "ThePrimeagen/vim-be-good",
+  "folke/which-key.nvim",
+  'mcauley-penney/visual-whitespace.nvim',
+}
