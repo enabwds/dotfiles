@@ -12,7 +12,7 @@ return {
 'hrsh7th/nvim-cmp',
 "jake-stewart/multicursor.nvim",
   "folke/noice.nvim",
-  "rcarriga/nvim-notify"
+  "rcarriga/nvim-notify",
   "nvim-neo-tree/neo-tree.nvim",
     "MunifTanjim/nui.nvim",
     "nvchad/nvim-colorizer.lua",
