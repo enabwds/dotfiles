@@ -17,6 +17,7 @@ return {
     "MunifTanjim/nui.nvim",
     "nvchad/nvim-colorizer.lua",
     "nyoom-engineering/oxocarbon.nvim",
+    "vague2k/vague.nvim",
     "folke/snacks.nvim",
   'nvim-telescope/telescope.nvim',
     "ThePrimeagen/vim-be-good",
