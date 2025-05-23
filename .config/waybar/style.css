@@ -1,30 +1,28 @@
 * {
     border: none;
-    border-radius: 0;
+    border-radius: 15px;
     font-family: Roboto,'Font Awesome 5', 'SFNS Display',  Helvetica, Arial, sans-serif;
     font-size: 13px;
     min-height: 0;
 }
 
 window#waybar {
-    background: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid rgba(100, 114, 125, 0);
     color: #ffffff;
 }
 
 window#waybar.hidden {
-    opacity: 0.0;
+    opacity: 1;
 }
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button {
     padding: 0 5px;
-    background: transparent;
-    color: #ffffff;
+    background-color: #000000;
     border-bottom: 3px solid transparent;
 }
 
 #workspaces button.focused {
-    background: #64727D;
+    background-color: #64727D;
     border-bottom: 3px solid #ffffff;
 }
 
@@ -33,12 +31,14 @@ window#waybar.hidden {
 }
 
 #mode {
-    background: #64727D;
+    background-color: #000000;
     border-bottom: 3px solid #ffffff;
 }
 
 #clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor, #bluetooth {
-    padding: 0 10px;
+    border: 3px solid #000000; 
+    border-radius: 15px;
+    padding: 10 10px;
     margin: 0 5px;
 }
 
